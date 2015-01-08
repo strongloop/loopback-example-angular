@@ -1,0 +1,18 @@
+{
+  "name": "loopback-example-angular",
+  "version": "0.0.0",
+  "homepage": "https://github.com/strongloop/loopback-example-angular",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-resource": "~1.3.8",
+    "angular-ui-router": "~0.2.13",
+    "bootstrap": "~3.3.1"
+  }
+}

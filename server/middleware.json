@@ -12,11 +12,11 @@
   "parse": {
   },
   "routes": {
-    "loopback#status": {
-      "paths": "/"
-    }
   },
   "files": {
+    "loopback#static": {
+      "params": "$!../client"
+    }
   },
   "final": {
     "loopback#urlNotFound": {}

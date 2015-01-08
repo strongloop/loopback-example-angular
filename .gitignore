@@ -1,2 +1,4 @@
+db.json
+client/vendor
 node_modules
 npm-debug.log
