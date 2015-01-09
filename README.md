@@ -185,7 +185,7 @@ mkdir client/js/services
 Create [`lb-services.js`](/client/js/services/lb-services.js) using the
 `lb-ng` command.
 
-> `lb-ng` is automatically installed alongside the `slc` command line tool (ie.
+> `lb-ng` is automatically installed along with the `slc` command line tool (ie.
 > when you ran `npm install -g strongloop`).
 
 > [`lb-services.js`](/client/js/services/lb-services.js) is an Angular service
