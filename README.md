@@ -66,14 +66,14 @@ cd loopback-example-angular
 ####Model information
 
 - Name: `Todo`
-- Data source: `db (memory)`
-- Base class: `PersistedModel`
-- Expose over REST: `Yes`
-- Custom plural form: *Leave blank*
-- Properties:
-  - `content`
-    - String
-    - Required
+  - Data source: `db (memory)`
+  - Base class: `PersistedModel`
+  - Expose over REST: `Yes`
+  - Custom plural form: *Leave blank*
+  - Properties:
+    - `content`
+      - String
+      - Required
 
 ```
 slc loopback:model Todo
