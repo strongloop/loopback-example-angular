@@ -4,6 +4,7 @@
 git clone https://github.com/strongloop/loopback-example-angular.git
 cd loopback-example-angular
 npm install
+bower install
 slc run
 ```
 
