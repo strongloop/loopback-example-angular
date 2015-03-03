@@ -1,7 +1,7 @@
 #loopback-example-angular
 
 ```
-git clone git@github.com:strongloop/loopback-example-angular.git
+git clone https://github.com/strongloop/loopback-example-angular.git
 cd loopback-example-angular
 npm install
 slc run
