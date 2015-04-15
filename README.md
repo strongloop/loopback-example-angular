@@ -8,7 +8,7 @@ bower install
 slc run
 ```
 
-In this example, we create a simple "todo" list app that uses LoopBack on the
+In this example, we create a simple todo list app that uses LoopBack on the
 server side and AngularJS on the client side.
 
 ## Prerequisites
