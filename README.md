@@ -97,10 +97,7 @@ In this directory, create [`styles.css`](/client/css/styles.css).
 
 Delete [`/server/boot/root.js`](/server/boot/root.js).
 
-Ensure that no routes from slc loopback are installed in /server/boot eg root.js. 
-
-Remove the contents of [`routes`](/server/middleware.json#L14-L15) property (if present) and
-add static middleware to the [`files`](/server/middleware.json#L17-L19) section
+Add static middleware to the [`files`](/server/middleware.json#L17-L19) section
 in [`middleware.json`](/server/middleware.json).
 
 ### Create `app.js`
