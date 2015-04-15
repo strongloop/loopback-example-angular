@@ -166,7 +166,7 @@ From the project root, enter `slc run` and browse to
 
 ---
 
-[LoopBack example][loopback-example]
+[Other LoopBack examples][loopback-example]
 
 [localhost]: http://localhost:3000
 [loopback-example]: https://github.com/strongloop/loopback-example
