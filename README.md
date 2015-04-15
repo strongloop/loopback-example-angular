@@ -95,10 +95,10 @@ In this directory, create [`styles.css`](/client/css/styles.css).
 
 ### Serve static assets from the `client` directory
 
-Delete [`/server/boot/root.js`](/server/boot/root.js).
+Delete `/server/boot/root.js`.
 
-Add static middleware to the [`files`](/server/middleware.json#L17-L19) section
-in [`middleware.json`](/server/middleware.json).
+Add static middleware to the [`files` section in `middleware.json`](/server/middleware.json#L24-L26)
+.
 
 ### Create `app.js`
 
