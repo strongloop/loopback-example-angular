@@ -157,12 +157,9 @@ lb-ng server/server.js client/js/services/lb-services.js
 
 ### Run the application
 
-From the project root, enter `slc run` and browse to
-[`localhost:3000`][localhost] to view the application.
+From the project root, enter `slc run` and browse to [`localhost:3000`](http://localhost:3000)
+to view the application.
 
 ---
 
-[Other LoopBack examples][loopback-example]
-
-[localhost]: http://localhost:3000
-[loopback-example]: https://github.com/strongloop/loopback-example
+[Other LoopBack examples](https://github.com/strongloop/loopback-example)
