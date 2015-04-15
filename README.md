@@ -16,7 +16,7 @@ server side and AngularJS on the client side.
 ### Tutorials
 
 - [Getting started with LoopBack](https://github.com/strongloop/loopback-getting-started)
-- [Tutorial series (step 1)](https://github.com/strongloop/loopback-example#step-1)
+- [Tutorial series, step 1](https://github.com/strongloop/loopback-example#step-1)
 
 ### Knowledge of
 
