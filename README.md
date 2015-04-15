@@ -4,7 +4,7 @@
 git clone https://github.com/strongloop/loopback-example-angular.git
 cd loopback-example-angular
 npm install
-slc run
+slc run # then browse to localhost:3000
 ```
 
 In this example, we create a simple todo list app that uses LoopBack on the
