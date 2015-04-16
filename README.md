@@ -7,8 +7,8 @@ npm install
 slc run # then browse to localhost:3000
 ```
 
-In this example, we create a simple todo list app that uses LoopBack on the
-server side and AngularJS on the client side.
+A simple todo list using AngularJS on the client-side and LoopBack on the
+server-side.
 
 ## Prerequisites
 
