@@ -143,8 +143,8 @@ mkdir client/js/services
 ```
 
 `lb-ng` is automatically installed along with the `slc` command-line tool (ie.
-when you ran `npm install -g strongloop`). `lb-ng` takes two arguments, the
-first is the path to [`server.js`](/server/server.js) and the second is the path
+when you ran `npm install -g strongloop`). `lb-ng` takes two arguments: the
+path to [`server.js`](/server/server.js) and the path
 to the [generated services file](https://github.com/strongloop/loopback-example-angular/blob/master/client/js/services/lb-services.js).
 [`lb-services.js`](/client/js/services/lb-services.js) is an Angular service
 used to interact with LoopBack models.
