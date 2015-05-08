@@ -1,10 +1,10 @@
 # loopback-example-angular
 
 ```
-git clone https://github.com/strongloop/loopback-example-angular.git
-cd loopback-example-angular
-npm install
-slc run # then browse to localhost:3000
+$ git clone https://github.com/strongloop/loopback-example-angular.git
+$ cd loopback-example-angular
+$ npm install
+$ node . # then browse to localhost:3000
 ```
 
 A simple todo list using AngularJS on the client-side and LoopBack on the
@@ -39,9 +39,9 @@ server-side.
 - Directory to contain the project: `loopback-example-angular`
 
 ```
-slc loopback loopback-example-angular
+$ slc loopback loopback-example-angular
 ... # follow the prompts
-cd loopback-example-angular
+$ cd loopback-example-angular
 ```
 
 ### Create the `Todo` model
@@ -59,7 +59,7 @@ cd loopback-example-angular
       - Required
 
 ```
-slc loopback:model Todo
+$ slc loopback:model Todo
 ... # follow the prompts
 ```
 
@@ -76,7 +76,7 @@ more convenient.
 From the project root, run:
 
 ```
-bower install angular angular-resource angular-ui-router bootstrap
+$ bower install angular angular-resource angular-ui-router bootstrap
 ```
 
 ### Create the home page
@@ -88,7 +88,7 @@ Create [`index.html`](/client/index.html) in the [`client`](/client) directory.
 Create a [`css` directory](/client/css) to store stylesheets.
 
 ```
-mkdir client/css
+$ mkdir client/css
 ```
 
 In this directory, create [`styles.css`](/client/css/styles.css).
@@ -105,7 +105,7 @@ Add static middleware to the [`files` section in `middleware.json`](/server/midd
 Create a [`js` directory](/client/js) to hold scripts files.
 
 ```
-mkdir client/js
+$ mkdir client/js
 ```
 
 In this directory, create [`app.js`](/client/js/app.js).
@@ -118,7 +118,7 @@ will generate this file using the `lb-ng` command in a later step.
 Create a [`views`](/client/views) to store view templates.
 
 ```
-mkdir client/views
+$ mkdir client/views
 ```
 
 In this directory, create [`todo.html`](/client/views/todo.html).
@@ -129,7 +129,7 @@ Create a [`controllers`](/client/js/controllers) directory to store controller
 files.
 
 ```
-mkdir client/js/controllers
+$ mkdir client/js/controllers
 ```
 
 In this directory, create [`todo.js`](/client/js/controllers/todo.js).
@@ -139,7 +139,7 @@ In this directory, create [`todo.js`](/client/js/controllers/todo.js).
 Create a [`services` directory](/client/js/services) to store service files.
 
 ```
-mkdir client/js/services
+$ mkdir client/js/services
 ```
 
 `lb-ng` is automatically installed along with the `slc` command-line tool (ie.
@@ -153,12 +153,12 @@ Create [`lb-services.js`](/client/js/services/lb-services.js) using the `lb-ng`
 command.
 
 ```
-lb-ng server/server.js client/js/services/lb-services.js
+$ lb-ng server/server.js client/js/services/lb-services.js
 ```
 
 ### Run the application
 
-From the project root, enter `slc start` and browse to [`localhost:3000`](http://localhost:3000)
+From the project root, enter `node .` and browse to [`localhost:3000`](http://localhost:3000)
 to view the application.
 
 ---
