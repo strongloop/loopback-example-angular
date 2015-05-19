@@ -65,10 +65,10 @@ $ slc loopback:model Todo
 
 ### Configure the vendor directory
 
-In the project root, create [`.bowerrc`](/.bowerrc).
+In the project root, create [`.bowerrc`](https://github.com/strongloop/loopback-example-angular/blob/master/.bowerrc).
 
 >Bower installs packages in `bower_components` by default, but we reconfigure
-this to `client/vendor` to make [importing files into `index.html`](/client/index.html#L33-L37)
+this to `client/vendor` to make [importing files into `index.html`](https://github.com/strongloop/loopback-example-angular/blob/master/client/index.html#L33-L37)
 more convenient.
 
 ### Install client-side dependencies
@@ -81,62 +81,62 @@ $ bower install angular angular-resource angular-ui-router bootstrap
 
 ### Create the home page
 
-Create [`index.html`](/client/index.html) in the [`client`](/client) directory.
+Create [`index.html`](https://github.com/strongloop/loopback-example-angular/blob/master/client/index.html) in the [`client`](https://github.com/strongloop/loopback-example-angular/blob/master/client) directory.
 
 ### Create the main stylesheet
 
-Create a [`css` directory](/client/css) to store stylesheets.
+Create a [`css` directory](https://github.com/strongloop/loopback-example-angular/blob/master/client/css) to store stylesheets.
 
 ```
 $ mkdir client/css
 ```
 
-In this directory, create [`styles.css`](/client/css/styles.css).
+In this directory, create [`styles.css`](https://github.com/strongloop/loopback-example-angular/blob/master/client/css/styles.css).
 
 ### Serve static assets from the `client` directory
 
 Delete `/server/boot/root.js`.
 
-Add static middleware to the [`files` section in `middleware.json`](/server/middleware.json#L23-L27)
+Add static middleware to the [`files` section in `middleware.json`](https://github.com/strongloop/loopback-example-angular/blob/master/server/middleware.json#L23-L27)
 .
 
 ### Create `app.js`
 
-Create a [`js` directory](/client/js) to hold scripts files.
+Create a [`js` directory](https://github.com/strongloop/loopback-example-angular/blob/master/client/js) to hold scripts files.
 
 ```
 $ mkdir client/js
 ```
 
-In this directory, create [`app.js`](/client/js/app.js).
+In this directory, create [`app.js`](https://github.com/strongloop/loopback-example-angular/blob/master/client/js/app.js).
 
->Notice we declare [`lbServices`](/client/js/app.js#L3) as a dependency. We
+>Notice we declare [`lbServices`](https://github.com/strongloop/loopback-example-angular/blob/master/client/js/app.js#L3) as a dependency. We
 will generate this file using the `lb-ng` command in a later step.
 
 ### Create `todo.html`
 
-Create a [`views`](/client/views) to store view templates.
+Create a [`views`](https://github.com/strongloop/loopback-example-angular/blob/master/client/views) to store view templates.
 
 ```
 $ mkdir client/views
 ```
 
-In this directory, create [`todo.html`](/client/views/todo.html).
+In this directory, create [`todo.html`](https://github.com/strongloop/loopback-example-angular/blob/master/client/views/todo.html).
 
 ### Create `controllers.js`
 
-Create a [`controllers`](/client/js/controllers) directory to store controller
+Create a [`controllers`](https://github.com/strongloop/loopback-example-angular/blob/master/client/js/controllers) directory to store controller
 files.
 
 ```
 $ mkdir client/js/controllers
 ```
 
-In this directory, create [`todo.js`](/client/js/controllers/todo.js).
+In this directory, create [`todo.js`](https://github.com/strongloop/loopback-example-angular/blob/master/client/js/controllers/todo.js).
 
 ### Generate `lb-services.js`
 
-Create a [`services` directory](/client/js/services) to store service files.
+Create a [`services` directory](https://github.com/strongloop/loopback-example-angular/blob/master/client/js/services) to store service files.
 
 ```
 $ mkdir client/js/services
@@ -144,12 +144,12 @@ $ mkdir client/js/services
 
 `lb-ng` is automatically installed along with the `slc` command-line tool (ie.
 when you ran `npm install -g strongloop`). `lb-ng` takes two arguments: the
-path to [`server.js`](/server/server.js) and the path
+path to [`server.js`](https://github.com/strongloop/loopback-example-angular/blob/master/server/server.js) and the path
 to the [generated services file](https://github.com/strongloop/loopback-example-angular/blob/master/client/js/services/lb-services.js).
-[`lb-services.js`](/client/js/services/lb-services.js) is an Angular service
+[`lb-services.js`](https://github.com/strongloop/loopback-example-angular/blob/master/client/js/services/lb-services.js) is an Angular service
 used to interact with LoopBack models.
 
-Create [`lb-services.js`](/client/js/services/lb-services.js) using the `lb-ng`
+Create [`lb-services.js`](https://github.com/strongloop/loopback-example-angular/blob/master/client/js/services/lb-services.js) using the `lb-ng`
 command.
 
 ```
