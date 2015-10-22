@@ -19,6 +19,9 @@
   "parse": {
   },
   "routes": {
+    "loopback#rest": {
+      "paths": ["${restApiRoot}"]
+    }
   },
   "files": {
     "loopback#static": {
