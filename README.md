@@ -163,4 +163,4 @@ to view the application.
 
 ---
 
-[Other LoopBack examples](https://github.com/strongloop/loopback-example)
+[More LoopBack examples](https://github.com/strongloop/loopback-example)
