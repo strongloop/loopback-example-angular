@@ -1,5 +1,6 @@
 {
   "name": "loopback-example-angular",
+  "license": "MIT",
   "version": "0.0.0",
   "homepage": "https://github.com/strongloop/loopback-example-angular",
   "ignore": [
