@@ -29,5 +29,6 @@
     "type": "git",
     "url": "https://github.com/strongloop/loopback-example-angular"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "author": "IBM Corp."
 }
